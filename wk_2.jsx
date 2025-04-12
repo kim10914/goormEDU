@@ -1,5 +1,5 @@
-import React from "react"; // React 라이브러리 가져오기
-import { useState } from "react"; //useState Hook 가져오기기
+import React, { useState } from "react"; // React 라이브러리 가져오기(와 미쳤다)
+// import { useState } from "react"; //useState Hook 가져오기기
 
 function Wk2() {
   const [todos, set_todos] = useState([ // 저장은 todos에 설정은 set_todos함수로 기본값 좀 추가
